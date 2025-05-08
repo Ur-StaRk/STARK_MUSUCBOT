@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "266961"))
-API_HASH = getenv("API_HASH", "fcc58560bc9f5ebc9c4207b3d26f2d")
-BOT_USERNAME = "@Spacexmusicbot"
+API_ID = int(getenv("API_ID", "27903526"))
+API_HASH = getenv("API_HASH", "34f58558a9b72175e378793462cda909")
+BOT_USERNAME = "@ShagunMusicbot"
 # Get your token from @BotFather on Telegram.main
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7646281973:AAE1SxceM1XMQerlP5EkyTpgSayLkx9Co5k")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://sr7blackbirds:5mRE2CGlkCXmI5pL@cluster0.jsssmx8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 200))
 
@@ -22,8 +22,8 @@ SERVER_PLAYLIST_LIMIT = 300  # Set your desired limit here
 
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002488347583))
-OWNER_ID = int(getenv("OWNER_ID", 1094941160))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002540021894))
+OWNER_ID = int(getenv("OWNER_ID", 7556447082))
 
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
@@ -53,8 +53,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HONEYSUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/HONEYSUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SR7_BlackBird")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BINDAAS_BUDDIES")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -100,7 +100,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQGpxiYAEGl3Bi7r-VR2WJOvbNqcrZjHHkjTlC-Mi5mFwkw-aljFFzZYCX7mK0UkRsUeVU4FLv-BUNNOXRavL2cuAAEmzi1ZRr31RcYbB_M3aGYgluvjM23EgJR45kt9wheVVCYfHRQPLiUCYXusIW6SBQPvIaCto3Jt0EzfJpv8MSv2xCH3PoMoYB2unEiIocEfpROhK_uVb7u4g2r78IKEDlvEE7kAKm2DeE6rvjuFYR6N32ajUGRgNMD14ToyBqMlcFHTJUQnFl2xiKkUGQkFwWq7zaGY48P7fo3J8U-KDeLQBX19MbNsGZcuXiHJrWc0o6hdken0etrLDh-cGsJHJ-n3iwAAAAHexHWmAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
